@@ -7,15 +7,11 @@ namespace OopsProblem
     {
         public static void Main(string[] args)
         {
+            CreateClass obj= new CreateClass();
+            obj.Variable();
 
-            Triangle pig = new Triangle();
-            pig.Rectangle();
-            pig.Rectangle();
-            Console.ReadKey();
+
 
         }
-
-
-
     }
 }
