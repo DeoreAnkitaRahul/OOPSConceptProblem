@@ -1,4 +1,5 @@
 ﻿using OopsProblem;
+using System.Net.NetworkInformation;
 
 namespace OopsProblem
 {
@@ -7,11 +8,10 @@ namespace OopsProblem
         public static void Main(string[] args)
         {
 
-            CreateClass encapsulation = new CreateClass();
-            Console.WriteLine(encapsulation.Name);
-            encapsulation.Name = "Ankita";
-            Console.WriteLine(encapsulation.Name);
-            Console.WriteLine(encapsulation.Age = 23);
+            Triangle pig = new Triangle();
+            pig.Rectangle();
+            pig.Rectangle();
+            Console.ReadKey();
 
         }
 
