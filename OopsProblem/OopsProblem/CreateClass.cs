@@ -8,10 +8,20 @@ namespace OopsProblem
 {
     public class CreateClass
     {
-        public void Method()
+        // Polymorphism Overloading Program
+        public void Sum(int a, int b)
         {
-            Console.WriteLine("Example Of Object class");
+            Console.WriteLine(a + b);
         }
+        public void Sum(double a, double b)
+        {
+            Console.WriteLine(a + b);
+        }
+        public void Sum(string str_one)
+        {
+            Console.WriteLine(str_one);
 
+        }
     }
 }
+
