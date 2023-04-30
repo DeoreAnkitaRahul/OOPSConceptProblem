@@ -8,20 +8,33 @@ namespace OopsProblem
 {
     public class CreateClass
     {
-        // Polymorphism Overloading Program
-        public void Sum(int a, int b)
-        {
-            Console.WriteLine(a + b);
-        }
-        public void Sum(double a, double b)
-        {
-            Console.WriteLine(a + b);
-        }
-        public void Sum(string str_one)
-        {
-            Console.WriteLine(str_one);
+        private string name = "Patil"; //Defined field is in private
+        private int age = 25;
+        public string Name  //Property
 
+        {
+            get
+            {
+                return name;
+            }
+            set
+            {
+                name = value; //name = value : It will set or assign value to the name
+            }
         }
+        public int Age
+        {
+            get {
+                
+              return age;
+            }
+            set
+            {
+                age = value;
+            }
+        }
+
+
     }
 }
 
