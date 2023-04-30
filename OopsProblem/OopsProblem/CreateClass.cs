@@ -8,18 +8,18 @@ namespace OopsProblem
 {
     public class CreateClass
     {
-        public void NonParameterMethod()
+        
+        //value Type
+        public void Value(int num_One, int num_Two)
         {
-            Console.WriteLine("This is Non-parameterised method");
+            Console.WriteLine($"Sum : {num_One + num_Two}");
         }
-        public void ParameterMethod(int rollNo, string name)
+
+       //Referance Type
+             public void Value_One(ref int num_One, ref int num_Two)
         {
-            Console.WriteLine("This is Parameterised method");
-            Console.WriteLine(rollNo);
-            Console.WriteLine(name);
-
-
-
+            Console.WriteLine($"Reference Sum : {num_One + num_Two}");
         }
+
     }
 }
