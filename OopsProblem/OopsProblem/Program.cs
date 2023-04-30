@@ -8,7 +8,9 @@ namespace OopsProblem
         public static void Main(string[] args)
         {
             CreateClass obj= new CreateClass();
-            obj.Variable();
+            obj.NonParameterMethod();
+            obj.ParameterMethod(6, "Rahul");
+
 
 
 
